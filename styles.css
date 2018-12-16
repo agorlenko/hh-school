@@ -4,14 +4,12 @@
   font-family: Poppins;
   src: local("Poppins-Regular"),
        url(./Poppins-Regular.ttf);
-
 }
 
 @font-face {
   font-family: Montserrat;
   src: local("Montserrat-Bold"),
        url(./Montserrat-Bold.ttf);
-
 }
 
 .page_body {
@@ -24,10 +22,17 @@
 }
 
 .modal-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background: rgba(0, 173, 95, 0.8);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0e81d6), to(rgba(0, 173, 95, 0.8)));
+  background: -webkit-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
+  background: -o-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
   background: linear-gradient(180deg, #0e81d6, rgba(0, 173, 95, 0.8));
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   left: 0;
   right: 0;
@@ -38,6 +43,8 @@
 
 @media (min-width: 768px) {
   .modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 1120px;
     height: 770px;
@@ -46,19 +53,33 @@
 
 @media (max-width: 768px) {
   .modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 1120px;
-    flex-direction: column-reverse;    
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;    
   }  
 }
 
 @media (min-width: 992px){
   .contact-info {
     background: rgba(0, 0, 0, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 50%;
   }
 }
@@ -66,10 +87,19 @@
 @media (max-width: 768px) {
   .contact-info {
     background: rgba(0, 0, 0, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 40%;
   }
 }
@@ -77,15 +107,26 @@
 @media (min-width: 768px) and (max-width: 992px){
   .contact-info {
     background: rgba(0, 0, 0, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 40%;
-    }
+  }
 }
 
 .contact-info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 45px;
   width: 355px;
@@ -120,8 +161,13 @@
 
 @media (min-width: 992px){
   .contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 50%;
     background: #fff;
     padding-left: 30px;
@@ -131,8 +177,13 @@
 
 @media (max-width: 576px) {
   .contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: 60%;
     background: #fff;
     padding-left: 15px;
@@ -142,8 +193,13 @@
 
 @media (min-width: 576px) and (max-width: 768px) {
   .contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: 60%;
     background: #fff;
     padding-left: 30px;
@@ -153,8 +209,13 @@
 
 @media (min-width: 768px) and (max-width: 992px){
   .contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 60%;
     background: #fff;
     padding-left: 30px;
@@ -171,8 +232,13 @@
 
 .contact-form-item {
   margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .contact-form-item__title {
@@ -192,12 +258,18 @@
   color: #666;
   outline: 0px solid;
   outline-offset: 15px;
+  -webkit-transition-property: outline-offset;
+  -o-transition-property: outline-offset;
   transition-property: outline-offset;
-  transition-duration: .4s;
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
 }
 
 .contact-form-item__full-name {
   height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -206,15 +278,23 @@
   font-size: 18px;
   color: #666;
   padding-left: 10px;
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   outline: 0px solid;
   outline-offset: 15px;
+  -webkit-transition-property: outline-offset;
+  -o-transition-property: outline-offset;
   transition-property: outline-offset;
-  transition-duration: .4s;
+  -webkit-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
   min-width: 2px;
 }
 
 .contact-form-item__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 50px;
   background-color: #00ad5f;
@@ -225,7 +305,9 @@
   padding-right: 16px;
   margin-top: 23px;
   max-width: 40%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact-form-item__button:hover {
