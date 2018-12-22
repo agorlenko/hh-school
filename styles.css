@@ -19,27 +19,102 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
   font-family: Poppins;
 }
 
-.modal-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: rgba(0, 173, 95, 0.8);
-  background: -webkit-gradient(linear, left top, left bottom, from(#0e81d6), to(rgba(0, 173, 95, 0.8)));
-  background: -webkit-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
-  background: -o-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
-  background: linear-gradient(180deg, #0e81d6, rgba(0, 173, 95, 0.8));
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  padding: 15px;
+@media (max-width: 768px) and (min-height: 1283px) {
+  .modal-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: rgba(0, 173, 95, 0.8);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0e81d6), to(rgba(0, 173, 95, 0.8)));
+    background: -webkit-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
+    background: -o-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
+    background: linear-gradient(180deg, #0e81d6, rgba(0, 173, 95, 0.8));
+    background-attachment: fixed;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1282px) {
+  .modal-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: rgba(0, 173, 95, 0.8);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0e81d6), to(rgba(0, 173, 95, 0.8)));
+    background: -webkit-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
+    background: -o-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
+    background: linear-gradient(180deg, #0e81d6, rgba(0, 173, 95, 0.8));
+    background-attachment: fixed;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 15px;
+    height: 1298px;
+  }
+}
+
+@media (min-width: 768px) and (min-height: 770px) {
+  .modal-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: rgba(0, 173, 95, 0.8);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0e81d6), to(rgba(0, 173, 95, 0.8)));
+    background: -webkit-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
+    background: -o-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
+    background: linear-gradient(180deg, #0e81d6, rgba(0, 173, 95, 0.8));
+    background-attachment: fixed;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-height: 770px) {
+  .modal-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: rgba(0, 173, 95, 0.8);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0e81d6), to(rgba(0, 173, 95, 0.8)));
+    background: -webkit-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
+    background: -o-linear-gradient(top, #0e81d6, rgba(0, 173, 95, 0.8));
+    background: linear-gradient(180deg, #0e81d6, rgba(0, 173, 95, 0.8));
+    background-attachment: fixed;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 15px;
+    height: 785px;
+  }
 }
 
 @media (min-width: 768px) {
